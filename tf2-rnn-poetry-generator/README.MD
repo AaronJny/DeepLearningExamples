@@ -73,6 +73,6 @@
 
 # 错误排除
 
-1. 当使用PyCharm打开并调试项目时，发现py文件的引用路径有误，怎么办？
+1.当使用PyCharm打开并调试项目时，发现py文件的引用路径有误，怎么办？
 
-答：参考主README中的错误排除说明。
+答：参考[错误排除](https://github.com/AaronJny/DeepLearningSamples/tree/master/tf2-rnn-poetry-generator)。
