@@ -76,3 +76,13 @@
 1.当使用PyCharm打开并调试项目时，发现py文件的引用路径有误，怎么办？
 
 答：参考[错误排除](https://github.com/AaronJny/DeepLearningSamples/tree/master/tf2-rnn-poetry-generator)。
+
+# 更多信息
+
+请访问博客：
+
+[有趣的深度学习——使用TensorFlow 2.0 + RNN 实现一个古体诗生成器](https://www.aaronjny.com/articles/2020/01/02/1577944439534.html) (https://www.aaronjny.com/articles/2020/01/02/1577944439534.html)
+
+或
+
+[有趣的深度学习——使用TensorFlow 2.0 + RNN 实现一个古体诗生成器](https://blog.csdn.net/aaronjny/article/details/103806954) (https://blog.csdn.net/aaronjny/article/details/103806954)
