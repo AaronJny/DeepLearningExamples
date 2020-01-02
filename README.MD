@@ -1,4 +1,4 @@
-# DeepLearningSamples
+# DeepLearningExamples
 
 个人编写的一些深度学习小Demo，欢迎大佬们批评指正。当前有如下Demo，后面会持续更新：
 
