@@ -4,6 +4,8 @@
 
 - [使用TensorFlow 2.0 编写的、基于循环神经网络的古诗生成器](https://github.com/AaronJny/DeepLearningSamples/tree/master/tf2-rnn-poetry-generator)
 - [使用Keras + BERT 模型编写的古诗生成器](https://github.com/AaronJny/DeepLearningSamples/tree/master/keras-bert-poetry-generator)
+- [从零开始编写一个宠物识别系统（爬虫、模型训练和调优、模型部署、Web服务）](https://github.com/AaronJny/pets_classifer)
+- [深度学习下的目标检测算法——TensorFlow 2.0下的YOLOv3实践](https://github.com/AaronJny/tf2-keras-yolo3)
 
 
 # 错误排除
