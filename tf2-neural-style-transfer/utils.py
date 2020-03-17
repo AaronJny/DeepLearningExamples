@@ -31,11 +31,11 @@ def load_images(image_path, width=settings.WIDTH, height=settings.HEIGHT):
     # 解码图片
     x = tf.image.decode_jpeg(x, channels=3)
     # 修改图片大小
-    x = tf.image.resize(x, [width, height])
+    x = tf.image.resize(x, [height, width])
     x = x / 255.
     # 归一化
     x = normalization(x)
-    x = tf.reshape(x, [1, width, height, 3])
+    x = tf.reshape(x, [1, height, width, 3])
     # 返回结果
     return x
 

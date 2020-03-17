@@ -107,7 +107,7 @@ def total_loss(noise_features):
 optimizer = tf.keras.optimizers.Adam(settings.LEARNING_RATE)
 
 # 基于内容图片随机生成一张噪声图片
-noise_image = tf.Variable((content_image + np.random.uniform(-0.2, 0.2, (1, settings.WIDTH, settings.HEIGHT, 3))) / 2)
+noise_image = tf.Variable((content_image + np.random.uniform(-0.2, 0.2, (1, settings.HEIGHT, settings.WIDTH, 3))) / 2)
 
 
 # 使用tf.function加速训练
