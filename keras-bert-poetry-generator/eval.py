@@ -9,7 +9,7 @@ import settings
 import utils
 
 # 加载训练好的模型
-model = model.load_weights(settings.BEST_MODEL_PATH)
+model.load_weights(settings.BEST_MODEL_PATH)
 # 随机生成一首诗
 print(utils.generate_random_poetry(tokenizer, model))
 # 给出部分信息的情况下，随机生成剩余部分

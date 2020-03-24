@@ -4,7 +4,7 @@
 # @Time    : 2019/12/24
 # @Desc    : 构建数据集
 from collections import defaultdict
-from bert4keras.tokenizer import Tokenizer, load_vocab
+from bert4keras.tokenizers import Tokenizer, load_vocab
 from bert4keras.snippets import sequence_padding, DataGenerator
 import numpy as np
 import settings
