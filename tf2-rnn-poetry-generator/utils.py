@@ -21,7 +21,9 @@ def generate_random_poetry(tokenizer, model, s=''):
     token_ids = token_ids[:-1]
     while len(token_ids) < settings.MAX_LEN:
         # 进行预测，只保留第一个样例（我们输入的样例数只有1）的、最后一个token的预测的、不包含[PAD][UNK][CLS]的概率分布
-        _probas = model.predict([token_ids, ])[0, -1, 3:]
+        output = model(np.array([token_ids, ], dtype=np.int32))
+        _probas = output.numpy()[0, -1, 3:]
+        del output
         # print(_probas)
         # 按照出现概率，对所有token倒序排列
         p_args = _probas.argsort()[::-1][:100]
@@ -66,7 +68,9 @@ def generate_acrostic(tokenizer, model, head):
         # 开始生成一个短句
         while True:
             # 进行预测，只保留第一个样例（我们输入的样例数只有1）的、最后一个token的预测的、不包含[PAD][UNK][CLS]的概率分布
-            _probas = model.predict([token_ids, ])[0, -1, 3:]
+            output = model(np.array([token_ids, ], dtype=np.int32))
+            _probas = output.numpy()[0, -1, 3:]
+            del output
             # 按照出现概率，对所有token倒序排列
             p_args = _probas.argsort()[::-1][:100]
             # 排列后的概率顺序
