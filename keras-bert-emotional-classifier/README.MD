@@ -9,7 +9,7 @@
 如下是训练1个epoch的模型性能参数：
 
 
-|数据集|准确率(Accuracy)|精确率(Precision)|召回率(Recall)|F1_Score|
+|数据集|Accuracy|Precision|Recall|F1_Score|
 |--|--|
 |训练集|0.9635|0.9705|0.9565|0.9608|
 |开发集(验证集)|0.9773|0.9913|0.9637|0.9755|
