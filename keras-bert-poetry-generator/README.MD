@@ -51,7 +51,7 @@
 
 BERT模型使用的是[苏剑林](https://github.com/bojone)大佬封装的[bert4keras](https://github.com/bojone/bert4keras)，开发过程中参考了bert4keras的[demo](https://github.com/bojone/bert4keras/tree/master/examples)。
 
-模型参数使用的是Google官方在中文预料上的预训练权重[BERT-Base, Chinese](https://github.com/google-research/bert#pre-trained-models)，下载地址为[https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip](https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip)
+模型参数使用的是Google官方在中文语料上的预训练权重[BERT-Base, Chinese](https://github.com/google-research/bert#pre-trained-models)，下载地址为[https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip](https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip)
 
 # 快速开始
 

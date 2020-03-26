@@ -4,7 +4,7 @@
 
 数据集来自于 [InsaneLife/ChineseNLPCorpus](https://github.com/InsaneLife/ChineseNLPCorpus#%E6%83%85%E6%84%9F%E8%A7%82%E7%82%B9%E8%AF%84%E8%AE%BA-%E5%80%BE%E5%90%91%E6%80%A7%E5%88%86%E6%9E%90) 的收集。
 
-我的计算设备是笔记本上的 GTX 1060 6G，算力较低，训练较为耗时，所以只训练了一个epoch，并且取得了还不错的效果。
+我的计算设备是笔记本上的 GTX 1060 6G，算力较低，训练较为耗时，所以只训练了一个epoch(在我的设备上约花费1个小时)，并且取得了还不错的效果。
 
 如下是训练1个epoch的模型性能参数：
 
@@ -39,7 +39,7 @@
 
 BERT模型使用的是[苏剑林](https://github.com/bojone)大佬封装的[bert4keras](https://github.com/bojone/bert4keras)，开发过程中参考了bert4keras的[demo](https://github.com/bojone/bert4keras/tree/master/examples)。
 
-模型参数使用的是Google官方在中文预料上的预训练权重[BERT-Base, Chinese](https://github.com/google-research/bert#pre-trained-models)，下载地址为[https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip](https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip)
+模型参数使用的是Google官方在中文语料上的预训练权重[BERT-Base, Chinese](https://github.com/google-research/bert#pre-trained-models)，下载地址为[https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip](https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip)
 
 
 # 快速开始

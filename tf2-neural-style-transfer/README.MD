@@ -81,3 +81,13 @@ Process finished with exit code 0
 
 训练完成后在输出目录（默认`./output`）下能看到生成的图片，默认每个epoch保存一次生成的图片。
 
+
+# 更多信息
+
+请访问博客：
+
+[有趣的深度学习——使用TensorFlow 2.0实现图片神经风格迁移](https://www.aaronjny.com/articles/2020/03/15/1584256301112.html) (https://www.aaronjny.com/articles/2020/03/15/1584256301112.html)
+
+或
+
+[有趣的深度学习——使用TensorFlow 2.0实现图片神经风格迁移](https://blog.csdn.net/aaronjny/article/details/104879258) (https://blog.csdn.net/aaronjny/article/details/104879258)
