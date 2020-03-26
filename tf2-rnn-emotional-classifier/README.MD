@@ -32,7 +32,7 @@
 ## 1.如何训练模型？
 
 - clone项目到本地。
-- 下载Google的预训练权重。
+- 下载数据集。
 - 安装依赖环境。
 - 在`settings.py`中配置好相关路径，并根据个人情况配置好其他参数。
 - 在`tf2-rnn-emotional-classifier`路径下，执行命令`python train.py`。

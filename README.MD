@@ -8,6 +8,7 @@
 - [深度学习下的目标检测算法——TensorFlow 2.0下的YOLOv3实践](https://github.com/AaronJny/tf2-keras-yolo3)
 - [使用TensorFlow 2.0 编写的图片神经风格迁移](https://github.com/AaronJny/DeepLearningSamples/tree/master/tf2-neural-style-transfer)
 - [使用Keras + BERT 模型编写的情感分析Demo](https://github.com/AaronJny/DeepLearningSamples/tree/master/keras-bert-emotional-classifier)
+- [使用TensorFlow 2.0 编写的、基于循环神经网络的情感分析Demo](https://github.com/AaronJny/DeepLearningSamples/tree/master/tf2-rnn-emotional-classifier)
 
 
 # 错误排除
