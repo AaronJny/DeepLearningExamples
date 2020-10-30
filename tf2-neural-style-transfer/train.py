@@ -141,4 +141,4 @@ for epoch in range(settings.EPOCHS):
             pbar.set_postfix({'loss': '%.4f' % float(_loss)})
             pbar.update(1)
         # 每个epoch保存一次图片
-        utils.save_image(noise_image, 'output/{}.jpg'.format(epoch + 1))
+        utils.save_image(noise_image, '{}/{}.jpg'.format(settings.OUTPUT_DIR, epoch + 1))
