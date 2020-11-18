@@ -9,7 +9,8 @@
 - [使用TensorFlow 2.0 编写的图片神经风格迁移](https://github.com/AaronJny/DeepLearningSamples/tree/master/tf2-neural-style-transfer)
 - [使用Keras + BERT 模型编写的情感分析Demo](https://github.com/AaronJny/DeepLearningSamples/tree/master/keras-bert-emotional-classifier)
 - [使用TensorFlow 2.0 编写的、基于循环神经网络的情感分析Demo](https://github.com/AaronJny/DeepLearningSamples/tree/master/tf2-rnn-emotional-classifier)
-
+- [xyolo:YOLOv3的高度封装版本，几行代码实现模型的训练和调用](https://github.com/AaronJny/xyolo)
+- [使用xyolo+孪生神经网络解决点选式验证码](https://github.com/AaronJny/captcha_detection)
 
 # 错误排除
 
