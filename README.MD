@@ -12,6 +12,10 @@
 - [xyolo:YOLOv3的高度封装版本，几行代码实现模型的训练和调用](https://github.com/AaronJny/xyolo)
 - [使用xyolo+孪生神经网络解决点选式验证码](https://github.com/AaronJny/captcha_detection)
 
+这里还有一些非深度学习的有趣的想法：
+
+- [100%成功率的顶象面积验证码识别思路](https://github.com/AaronJny/DeepLearningExamples/tree/master/counter-dingxiang-area-captcha)
+
 # 错误排除
 
 1.当使用PyCharm打开并调试项目时，发现py文件的引用路径有误，怎么办？
