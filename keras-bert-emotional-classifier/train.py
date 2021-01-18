@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
-# @File    : train.py
-# @Author  : AaronJny
-# @Time    : 2020/03/24
-# @Desc    :
+# @Date         : 2020-10-30
+# @Author       : AaronJny
+# @LastEditTime : 2021-01-18
+# @FilePath     : /DeepLearningExamples/keras-bert-emotional-classifier/train.py
+# @Desc         :
 import keras
 from dataset import MyDataGenerator
 from dataset import tokenizer
@@ -16,7 +17,8 @@ dev_generator = MyDataGenerator(dev_data, tokenizer, settings.BATCH_SIZE)
 test_generator = MyDataGenerator(test_data, tokenizer, settings.BATCH_SIZE)
 
 # 设置checkpoint，自动保存模型
-checkpoint = keras.callbacks.ModelCheckpoint(settings.BEST_WEIGHTS_PATH, monitor='val_f1_m', save_best_only=True)
+checkpoint = keras.callbacks.ModelCheckpoint(
+    settings.BEST_WEIGHTS_PATH, monitor='val_f1_m', save_best_only=True, mode='max')
 
 # 训练
 model.fit_generator(train_generator.forfit(), steps_per_epoch=train_generator.steps, epochs=settings.EPOCHS,
